@@ -9,7 +9,7 @@ function App(): JSX.Element {
       <div className="size-48">
         <img
           alt="logo"
-          className="transition-all duration-300 hover:drop-shadow-[0_8px_16px_rgba(225,113,0,1)]"
+          className="transition-all duration-300 hover:drop-shadow-[0_0_16px_#ffb900]"
           src={electronLogo}
         />
       </div>
