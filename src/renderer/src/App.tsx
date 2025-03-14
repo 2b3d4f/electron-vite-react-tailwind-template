@@ -1,11 +1,13 @@
 import Versions from './components/Versions'
 import electronLogo from './assets/electron.svg'
+import TitleBar from './components/TitleBar'
 
 function App(): JSX.Element {
   const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
 
   return (
     <div className="flex min-h-[100vh] flex-col justify-center bg-amber-50 p-8 select-none *:mx-auto *:not-first:mt-4">
+      <TitleBar />
       <div className="size-48">
         <img
           alt="logo"
